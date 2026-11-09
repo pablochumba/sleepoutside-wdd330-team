@@ -156,6 +156,21 @@ button {
   padding: 1rem;
 }
 
+.alert-list {
+  margin: 1rem;
+}
+
+.alert-list p {
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.alert-list p + p {
+  margin-top: 0.5rem;
+}
+
 .product-list {
   display: flex;
   flex-flow: row wrap;

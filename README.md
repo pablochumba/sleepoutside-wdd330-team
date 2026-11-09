@@ -20,5 +20,16 @@
 - `npm run start` starts up a local server and updates on any JS or CSS/SCSS
 - `npm run build` to build final files when you are ready to turn in.
 
+### Home page announcements
+
+Edit `src/json/alerts.json` to manage the announcements shown above the home
+page content. Each entry contains a `message`, a CSS `background` color, and a
+CSS text `color`. The `Alert` class in `src/js/Alert.js` creates one paragraph
+for each entry and prepends an `.alert-list` section to `<main>`.
+
+Use an empty array (`[]`) to show no announcements. Messages are inserted as
+plain text. If the optional announcements file cannot be loaded, products
+remain available. Rebuild and redeploy the site after changing the JSON file.
+
 ---
 _BYU-Pathway Worldwide improves lives through access to spiritually based, online affordable higher education. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities._
